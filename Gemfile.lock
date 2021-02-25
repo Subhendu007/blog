@@ -71,7 +71,7 @@ GEM
     ffi (1.14.2-x86-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.8.8)
+    i18n (1.8.9)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
@@ -121,6 +121,8 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    record_tag_helper (1.0.1)
+      actionview (>= 5)
     regexp_parser (2.0.3)
     rubyzip (2.3.0)
     sass (3.7.4)
@@ -180,6 +182,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   puma (~> 3.7)
   rails (~> 5.1.7)
+  record_tag_helper (~> 1.0)
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3
